@@ -48,7 +48,7 @@ taxa_de_acertos = 100.0 * total_de_acertos/total_de_elementos
 print(resultado - marcacoes_teste)
 print(acertos)
 print(taxa_de_acertos)
-for i in xrange(len(resultado)):
+for i in range(len(resultado)):
 	if resultado[i]==1:
 		print("O misterioso" + str(i+1) + " é porco.")
 	else:
